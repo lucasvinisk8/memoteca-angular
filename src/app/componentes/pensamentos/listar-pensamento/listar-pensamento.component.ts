@@ -17,6 +17,11 @@ export class ListarPensamentoComponent implements OnInit {
       conteudo: 'Minha propriedade é decorada com @Input()',
       autoria: 'Componente filho',
       modelo: 'modelo2'
+    },
+    {
+      conteudo: 'Teste de tamanho - Teste de tamanho - Teste de tamanho - Teste de tamanho - Teste de tamanho - Teste de tamanho - Teste de tamanho - Teste de tamanho - Teste de tamanho - Teste de tamanho - Teste de tamanho - Teste de tamanho - Teste de tamanho - Teste de tamanho - Teste de tamanho - Teste de tamanho - Teste de tamanho - Teste de tamanho - Teste de tamanho - Teste de tamanho - Teste de tamanho - Teste de tamanho - Teste de tamanho - Teste de tamanho - Teste de tamanho - Teste de tamanho - Teste de tamanho - Teste de tamanho - Teste de tamanho - Teste de tamanho',
+      autoria: '',
+      modelo: 'modelo1'
     }
   ];
 
