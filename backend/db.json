@@ -13,20 +13,8 @@
       "modelo": "modelo2"
     },
     {
-      "id": 3,
-      "conteudo": "Angular é o melhor'",
-      "autoria": "Dev Alura",
-      "modelo": "modelo3"
-    },
-    {
-      "conteudo": "Pensamento do Lukita",
+      "conteudo": "Quero assistir avatar (ang)",
       "autoria": "Lucas Vinicius",
-      "modelo": "modelo2",
-      "id": 4
-    },
-    {
-      "conteudo": "Quero assistir avatar",
-      "autoria": "lucas",
       "modelo": "modelo3",
       "id": 5
     }
