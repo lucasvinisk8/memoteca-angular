@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
-import { Pensamento } from '../pensamento';
 import { PensamentoService } from '../pensamento.service';
 
 @Component({
@@ -32,7 +31,8 @@ export class EditarPensamentoComponent implements OnInit {
         Validators.required,
         Validators.minLength(3)
       ])],
-      modelo: ['modelo1']
+      modelo: ['modelo1'],
+      favorito: [false]
     });
 
     const id = this.route.snapshot.paramMap.get('id');
@@ -41,7 +41,8 @@ export class EditarPensamentoComponent implements OnInit {
         id: pensamento.id,
         conteudo: pensamento.conteudo,
         autoria: pensamento.autoria,
-        modelo: pensamento.modelo
+        modelo: pensamento.modelo,
+        favorito: pensamento.favorito
       });
     });
   }
