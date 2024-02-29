@@ -13,10 +13,10 @@
       "modelo": "modelo2"
     },
     {
-      "conteudo": "Pensamento Teste 2",
+      "id": 3,
+      "conteudo": "Pensamento Teste do Lukita",
       "autoria": "Lucas DEV",
-      "modelo": "modelo3",
-      "id": 3
+      "modelo": "modelo3"
     }
   ]
 }

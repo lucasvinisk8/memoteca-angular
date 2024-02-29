@@ -30,7 +30,7 @@ export class CriarPensamentoComponent implements OnInit {
         Validators.minLength(3)
       ])],
       modelo: ['modelo1']
-    })
+    });
   }
 
   criarPensamento() {
@@ -43,6 +43,14 @@ export class CriarPensamentoComponent implements OnInit {
 
   cancelar() {
     this.router.navigate(['/listarPensamento']);
+  }
+
+  habilitarBotao(): string {
+    if (this.formulario.valid) {
+      return 'botao'
+    } else {
+      return 'botao__desabilitado'
+    }
   }
 
 }
